@@ -17,14 +17,15 @@ Route::get('/.well-known/webfinger', function () {
 Route::get('/actor', function () {
     return [
         '@context' => [
-            'https =>//www.w3.org/ns/activitystreams',
-            'https =>//w3id.org/security/v1',
+            'https://www.w3.org/ns/activitystreams',
+            'https://w3id.org/security/v1',
         ],
 
         'id' => 'https://feature-activitypub.davidpeach.me/actor',
         'type' => 'Person',
         'preferredUsername' => 'david',
         'inbox' => 'https://feature-activitypub.davidpeach.me/inbox',
+        'outbox' => 'https://feature-activitypub.davidpeach.me/outbox',
 
         'publicKey' => [
             'id' => 'https://feature-activitypub.davidpeach.me/actor#main-key',
