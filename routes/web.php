@@ -7,20 +7,20 @@ Route::get('/.well-known/webfinger', function () {
             [
                 'rel' => 'self',
                 'type' => 'application/activity+json',
-                'href' => 'https://feature-activitypub.davidpeach.me/@david',
+                'href' => 'https://feature-activitypub.davidpeach.me/david',
             ],
         ],
     ];
 
 });
 
-Route::get('/@david', function () {
+Route::get('/david', function () {
     return [
         '@context' => [
             'https://www.w3.org/ns/activitystreams',
         ],
         'type' => 'Person',
-        'id' => 'https://feature-activitypub.davidpeach.me/@david',
+        'id' => 'https://feature-activitypub.davidpeach.me/david',
         'preferredUsername' => 'david',
         'inbox' => 'https://feature-activitypub.davidpeach.me/inbox',
         'outbox' => 'https://feature-activitypub.davidpeach.me/outbox',
