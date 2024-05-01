@@ -20,7 +20,7 @@ Route::get('/@david', function () {
             'https://www.w3.org/ns/activitystreams',
         ],
         'type' => 'Person',
-        'id' => 'https://feature-activitypub.davidpeach.me',
+        'id' => 'https://feature-activitypub.davidpeach.me/david',
         'preferredUsername' => 'david',
         'inbox' => 'https://feature-activitypub.davidpeach.me/inbox',
         'outbox' => 'https://feature-activitypub.davidpeach.me/outbox',
