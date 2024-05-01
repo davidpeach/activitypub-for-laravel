@@ -21,6 +21,7 @@ Route::get('/david', function () {
             'https://w3id.org/security/v1',
         ],
         'type' => 'Person',
+        'id' => 'https://feature-activitypub.davidpeach.me/david',
         'following' => 'https://feature-activitypub.davidpeach.me/david/following',
         'followers' => 'https://feature-activitypub.davidpeach.me/david/followers',
         'inbox' => 'https://feature-activitypub.davidpeach.me/david/inbox',
@@ -36,7 +37,6 @@ Route::get('/david', function () {
         'manuallyApprovesFollowers' => false,
         'discoverable' => true,
 
-        // 'id' => 'https://feature-activitypub.davidpeach.me/david',
         // 'preferredUsername' => 'david',
         // 'inbox' => 'https://feature-activitypub.davidpeach.me/inbox',
         // 'outbox' => 'https://feature-activitypub.davidpeach.me/outbox',
