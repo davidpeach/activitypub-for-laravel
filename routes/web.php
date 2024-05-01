@@ -38,6 +38,8 @@ Route::get('/david', function () {
         'discoverable' => true,
 
         'preferredUsername' => 'david',
+        'published' => '2020-01-01T00:00:00Z',
+
         // 'inbox' => 'https://feature-activitypub.davidpeach.me/inbox',
         // 'outbox' => 'https://feature-activitypub.davidpeach.me/outbox',
 
