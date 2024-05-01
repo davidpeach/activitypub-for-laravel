@@ -14,7 +14,7 @@ Route::get('/.well-known/webfinger', function () {
 
 });
 
-Route::get('/actor', function () {
+Route::get('/@david', function () {
     return [
         '@context' => [
             'https://www.w3.org/ns/activitystreams',
