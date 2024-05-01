@@ -1,0 +1,30 @@
+{
+    "name": "davidpeach/activitypub-for-laravel",
+    "type": "library",
+    "description": "A package to enable Activitypub in Laravel",
+    "keywords": [
+        "laravel",
+        "activitypub"
+    ],
+    "version": "0.1",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "DavidPeach\\ActivityPubForLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DavidPeach\\ActivityPubForLaravel\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
