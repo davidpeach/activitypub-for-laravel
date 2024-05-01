@@ -7,7 +7,7 @@ Route::get('/.well-known/webfinger', function () {
             [
                 'rel' => 'self',
                 'type' => 'application/activity+json',
-                'href' => 'https://feature-activitypub.davidpeach.me/actor',
+                'href' => 'https://feature-activitypub.davidpeach.me/@david',
             ],
         ],
     ];
