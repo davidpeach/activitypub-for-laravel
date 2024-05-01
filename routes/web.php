@@ -37,7 +37,7 @@ Route::get('/david', function () {
         'manuallyApprovesFollowers' => false,
         'discoverable' => true,
 
-        // 'preferredUsername' => 'david',
+        'preferredUsername' => 'david',
         // 'inbox' => 'https://feature-activitypub.davidpeach.me/inbox',
         // 'outbox' => 'https://feature-activitypub.davidpeach.me/outbox',
 
