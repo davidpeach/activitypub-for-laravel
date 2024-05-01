@@ -31,7 +31,7 @@ Route::get('/david', function () {
         'endpoints' => [
             'sharedInbox' => 'https://feature-activitypub.davidpeach.me/inbox',
         ],
-        'name' => 'david peach dot me',
+        'name' => 'David Peach',
         'summary' => "<p>A bio goes here</p>\n",
         'url' => 'https://feature-activitypub.davidpeach.me/david',
         'manuallyApprovesFollowers' => false,
