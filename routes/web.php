@@ -6,7 +6,7 @@ Route::get('/.well-known/webfinger', function () {
         'links' => [
             [
                 'rel' => 'self',
-                'type' => 'application/activity+json',
+                'type' => 'application/ld+json; profile="https://www.w3.org/ns/activitystreams',
                 'href' => 'https://ap1.davidpeach.me/david',
             ],
         ],
