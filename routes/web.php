@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/.well-known/webfinger', function () {
-    return response([
+    return [
         'subject' => 'acct:david@ap1.davidpeach.me',
         'links' => [
             [
@@ -10,9 +10,7 @@ Route::get('/.well-known/webfinger', function () {
                 'href' => 'https://ap1.davidpeach.me/david',
             ],
         ],
-    ])->withHeaders([
-        'Content-Type' => 'application/ld+json; profile="https://www.w3.org/ns/activitystreams',
-    ]);
+    ];
 
 });
 
